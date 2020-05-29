@@ -22,6 +22,7 @@
 	<meta name="twitter:image" content="">
 	<meta name="twitter:image:alt" content="">
 	<meta name="twitter:card" content="">
+	<!-- Insert Google analytics tags -->
 	<!-- favicon -->
 	<link rel="icon" type="image/png" href="https://example.com/YOUR_ICON.png">
 	<!-- Google Fonts https://fonts.google.com/ -->
@@ -36,6 +37,8 @@
 	<link rel="stylesheet" href="3rdparty/css/owlcarousel/owl.theme.default.min.css">
 	<!-- Magnific Popup https://dimsemenov.com/plugins/magnific-popup/documentation.html -->
 	<link rel="stylesheet" href="3rdparty/css/magnific-popup.css">
+	<!-- rellax.js Parallax, Scrolling Animations https://dixonandmoe.com/rellax/ -->
+	<script src="rellax.min.js"></script>
 	<!-- Font Awesome  https://fontawesome.com/ -->
 	<script src="https://kit.fontawesome.com/YOUR_KIT_ID.js" crossorigin="anonymous"></script>
 	<!-- Bootstrap CSS https://getbootstrap.com/  -->
@@ -56,6 +59,17 @@
 	<!-- Magnific Popup https://dimsemenov.com/plugins/magnific-popup/documentation.html -->
 	<script src="3rdparty/js/jquery.magnific-popup.min.js"></script>
 	<script src="3rdparty/js/magnific-popup/jquery.magnific-popup.js"></script>
+	
+<!-- Move to Project.js -->
+	<script> var rellax = new Rellax('.rellax', {
+    speed: -2,
+    center: false,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
+</script>
 		<!--Custom Project JS -->
 	<script src="js/PROJECT_NAME.js"></script>
 	<!-- Page specific JS -->
