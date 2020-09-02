@@ -1,0 +1,100 @@
+body {
+	background-color:#eff4ec;
+	height: 100%;
+}
+/* top navagation */
+#topnavbar {
+	overflow: hidden;
+	position: fixed;
+    top: 0;
+    width: 100%;
+	background-color:#fff;
+	opacity:0.9;
+	padding: 10px 15px 10px;
+}
+#topnavbar h4{
+	color: #005000;
+}
+#topnavbar  a {
+	color: #005000;
+}
+.navleft{
+float: right;	
+}
+
+
+/* header */
+#header{
+	background-image: url("../images/oregonmounthood.png");
+	background-color:#00ffff;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+.headerflex{
+	position: relative;
+	top:150px;
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+	width: 30%;
+	border: 2px solid #cacac6;
+    background: rgba(250, 250, 250, 0.6);
+	padding:10px;
+}
+.headerflexitems{
+	margin:10px;
+	margin: auto;
+	padding:10px; 
+}
+.headercircle{
+	background: rgba(250, 250, 250, 0.9);
+	width:150px;
+	height:150px;
+
+}
+.headercircleinner{
+	position: relative;
+	top: 4px;
+	left: 4px;
+	width:140px;
+	height:140px;
+	margin: auto;
+}
+.headertext{
+	color: #2191c9;
+	/*background: rgba(202, 202, 198, 0.6); */
+	padding: 2px;
+
+}
+/* main content */
+#main {
+	padding: 50px;
+}
+/* Phones, 600px and smaller */
+@media only screen and (max-width: 600px) {
+  .headerflex {width: 80%; margin-left: auto;  margin-right: auto;}
+}
+
+/* Portrait tablets and large phones, 600px to 767px */
+@media only screen and (min-width: 600px) {
+  .headerflex {width: 75%; 	margin-left: auto;  margin-right: auto;}
+}
+
+/* Landscape tablets, 768px to 991px */
+@media only screen and (min-width: 768px) {
+  .headerflex {width: 50%;  margin-left: 75px;}
+} 
+
+/* Laptops/ small desktops, 992px to 1199px */
+@media only screen and (min-width: 992px) {
+  .headerflex {width: 30%; margin-left: 75px;}
+} 
+
+/* Desktops 1200px and larger */
+@media only screen and (min-width: 1200px) {
+  .headerflex {width: 30%; margin-left: 75px;}
+}
